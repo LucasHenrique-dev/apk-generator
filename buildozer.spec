@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = App Aula Teste
+title = GUPE
 
 # (str) Package name
-package.name = aulaapp
+package.name = GUPE
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -37,7 +37,7 @@ version = 1.2
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.7.6, hostpython3==3.7.6, kivy, pillow
+requirements = python3,kivy==2.2.1,kivymd==1.1.1,Kivy_Garden,pillow,pygments,pypiwin32,matplotlib==3.7.2,numpy==1.26.2,pandas==2.1.4,scipy==1.11.4
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -63,17 +63,17 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3.7.6
+osx.python_version = 3.10.11
 
 # Kivy version to use
-osx.kivy_version = 1.9.1
+osx.kivy_version = 2.2.1
 
 #
 # Android specific
 #
 
 # (bool) Indicate if the application should be fullscreen or not
-fullscreen = 0
+fullscreen = 1
 
 # (string) Presplash background color (for android toolchain)
 # Supported formats are: #RRGGBB #AARRGGBB or one of the following names:
@@ -94,16 +94,16 @@ fullscreen = 0
 #icon.adaptive_background.filename = %(source.dir)s/data/icon_bg.png
 
 # (list) Permissions
-#android.permissions = INTERNET
+android.permissions = READ_EXTERNAL_STORAGE
 
 # (list) features (adds uses-feature -tags to manifest)
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-#android.api = 27
+android.api = 31
 
 # (int) Minimum API your APK / AAB will support.
-#android.minapi = 21
+android.minapi = 28
 
 # (int) Android SDK version to use
 #android.sdk = 20
