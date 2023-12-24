@@ -137,7 +137,7 @@ class MainApp(MDApp):
 
     def abrir_arquivo_de_exemplo(self):
         # Substitua o caminho do arquivo de exemplo pelo caminho real do seu arquivo
-        caminho_arquivo_exemplo = '../integracao/arquivo/MagCurve-1.txt'
+        caminho_arquivo_exemplo = 'integracao/arquivo/MagCurve-1.txt'
 
         try:
             with open(caminho_arquivo_exemplo, 'r') as arquivo:
@@ -179,8 +179,8 @@ class MainApp(MDApp):
         box_images.spacing = "20dp"
 
         lamina = TransformadorInformacoes['lamina'].lower()
-        self.dimensionamento.ids.imagem_transformador.source = "../integracao/images/transformador.png"
-        self.dimensionamento.ids.imagem_lamina.source = f"../integracao/images/lamina_{lamina}.png"
+        self.dimensionamento.ids.imagem_transformador.source = "integracao/images/transformador.png"
+        self.dimensionamento.ids.imagem_lamina.source = f"integracao/images/lamina_{lamina}.png"
 
     def verificar_campos(self):
         # Verificar se todos os campos estão preenchidos
