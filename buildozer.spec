@@ -37,7 +37,7 @@ version = 1.2
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,kivymd,pillow,cython,numpy,matplotlib==3.5.0rc1,jdcal,et_xmlfile,openpyxl,py-androidbuild
+requirements = freetype, hostpython3, jpeg, libffi, openssl, png, sdl2_image, sdl2_mixer, sdl2_ttf, sqlite3, python3, sdl2, setuptools, cppy, cython, pillow, six, kiwisolver, numpy, pyjnius, android, kivy, matplotlib, cycler, requests, et_xmlfile, kivymd, fonttools, idna, pyparsing, python-dateutil, packaging, certifi, openpyxl, jdcal, urllib3, chardet
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
